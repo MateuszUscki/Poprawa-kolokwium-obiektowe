@@ -1,0 +1,9 @@
+﻿using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks; 
+namespace Application
+{
+    interface IMagazyn
+    {
+        int Przyjmij(string thing);
+        bool Wydaj(int thing2);
+    }
+}
